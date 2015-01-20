@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-s = 'bobiudsfdsyobobobfdsaklgadvcxkd'
-n = 0
+# Code counts the number of times 'bob' appears in a given string
+s = raw_input("Enter a string: ")
 count = 0
-for n in range(len(s)):
-    z = s[0+n:3+n]
-    n += 1
-    if z == 'bob':
-        count += 1
+for i in range(len(s)):
+    if s[i:i+3] == 'bob':
+        count += 1    
 print count        
