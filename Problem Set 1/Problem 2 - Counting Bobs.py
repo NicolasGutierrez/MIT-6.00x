@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-# Code counts the number of times 'bob' appears in a given string
+'''
+The goal of this code is to return the number of times 'bob' appears in a given string
+'''
 s = raw_input("Enter a string: ")
 count = 0
 for i in range(len(s)):
